@@ -1,7 +1,7 @@
 <body>
   <main>
-    <h1 id="title">Survey title</h1>
-    <p id="description">Descriptive text about this very survey!</p>
+    <h1 id="title">Survey example</h1>
+    <p id="description">Descriptive text about this survey</p>
     <form id="survey-form">
         <label for="name" id="name-label">* Name:</label>
         <input name="name" type="text" id="name" placeholder="enter your name" required autofocus></input>
@@ -10,9 +10,9 @@
         <input name="email" type="email" id="email" placeholder="enter your e-mail" required></input>
       <br>
       <label for="number" id="number-label">* Age:</label>
-      <input name="age" id="number" type="number" max="100" min="1" required placeholder="your age"></input>
+      <input name="age" id="number" type="number" max="100" min="1" required placeholder="enter your age"></input>
       <br>
-      <label for="dropdown" id="dropdown-label">Select option:</label>
+      <label for="dropdown" id="dropdown-label">Select an option:</label>
       <select id="dropdown">
         <option value"option1">option 1</option>
         <option value"option2">option 2</option>
@@ -23,15 +23,16 @@
         <input type="radio" name="gender" id="radio" value="male">male</input>
         <input type="radio" name="gender" id="radio" value="other">other</input>
       </fieldset>
+      <label>Check all that apply:</label>
       <br>
-      <label>Check all that apply to you:</label>
-      <br>
+<div class="checkboxes">
       <input type="checkbox" name"checkbox" value="item1">item 1</input><br>
       <input type="checkbox" name"checkbox" value="item2">item 2</input><br>
       <input type="checkbox" name"checkbox" value="item2">item 3</input><br>
+</div>
       <label for="comments">Additional Comments:</label><br>
       <textarea type="text" name="message"></textarea>
-      <br>
+    <br>
       <input type="submit" name="submit" id="submit"></input>
     </form>
   <main>
