@@ -36,7 +36,6 @@ font-family: 'Gravitas One', cursive;
 }
 label {
   text-align: left;
-  padding-left: 10px;
 }
 #email, #name, #dropdown, #number, #gender {
   width: 100%;
